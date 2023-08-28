@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <title>Keval Shetta || Portfolio</title>
+    <meta name="description" content="Portfolio webpage of Keval Shetta" />
+    <meta name="keywords" content="portfolio, website, personal website, github, projects, Mumbai University, Fanshawe College, Mobile Application Development, Android Developer, iOS Developer, UI Designer, UX Researcher, Keval Shetta" />
+    <meta name="author" content="Keval Shetta" />
+    <link rel="shortcut icon" href="assets/kevalShetta.png" />
+
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+
+    <!-- Start of Header -->
+    <nav id="desktop-nav" class="navbar">
+      <div class="logo">Keval Shetta</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav" class="navbar">
+      <div class="logo">Keval Shetta</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+        <!-- End of Header -->
+
+            <!-- Start of Profile -->
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/top.png" alt="Keval Shetta profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Keval Shetta</h1>
+        <div class="change-text">
+          <h3>And I'm</h3>
+          <h3>
+              <span class="word">Android &nbsp; Developer</span>
+              <span class="word">iOS&nbsp; Developer</span>
+              <span class="word">Web&nbsp; Developer</span>
+              <span class="word">UI/UX&nbsp; Designer</span>
+              <span class="word">Database&nbsp; Handler</span>
+          </h3>
+      </div>
+
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Keval_Shetta.pdf')"
+          >
+            Download Resume
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <a href="https://linkedin.com/in/kevalshetta" target="_blank">
+            <img
+            src="./assets/linkedin.png"
+              alt="My Github profile"
+              class="icon"
+            />
+          </a>
+
+          <a href="https://github.com/ShettaKeval20" target="_blank">
+            <img
+              src="./assets/github.png"
+              alt="My Github profile"
+              class="icon"
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+     <!-- Start of Profile -->
+
+      <!-- Start of About -->
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/3.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <!-- <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>2+ years <br />Frontend Development</p>
+            </div> -->
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Pgdm. Mobile Application<br />BE. Information Technology</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              As a highly motivated student with a deep-rooted passion for technology and a knack for creative problem-solving, I am determined to embark on a dynamic journey in the world of IT. My name is Keval Shetta, and I am currently pursuing Mobile Application Development at Fanshawe College in London, Ontario.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+      <!-- End of About -->
+
+    <!-- Start of Skills -->
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      
+      <div class="skill-main">
+        <div class="skill-left scroll-scale">
+            <h3>Technical Skills</h3>
+
+            <!-- HTML -->
+            <div class="skill-bar">
+                <div class="info">
+                    <p>HTML / CSS / JS</p>
+                    <p>60%</p>
+                </div>
+                <div class="bar">
+                    <span class="html"></span>
+                </div>
+            </div>
+
+            <!-- Kotlin -->
+            <div class="skill-bar">
+                <div class="info">
+                    <p>Kotlin</p>
+                    <p>60%</p>
+                </div>
+                <div class="bar">
+                    <span class="kotlin"></span>
+                </div>
+            </div>
+
+            <!-- Figma -->
+            <div class="skill-bar">
+                <div class="info">
+                    <p>Figma</p>
+                    <p>80%</p>
+                </div>
+                <div class="bar">
+                    <span class="figma"></span>
+                </div>
+            </div>
+
+            <!-- SQL -->
+            <div class="skill-bar">
+                <div class="info">
+                    <p>SQL</p>
+                    <p>65%</p>
+                </div>
+                <div class="bar">
+                    <span class="sql"></span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="skill-right scroll-scale">
+            <h3>Professional Skills</h3>
+
+            <div class="professional">
+                <div class="box">
+                    <div class="circle"  data-dots="80" data-percent="60"></div>
+                    <div class="text">
+                        <big>Leadership</big>
+                        <small>60%</small>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="circle"  data-dots="80" data-percent="90"></div>
+
+                    <div class="text">
+                        <big>Team Work</big>
+                        <small>90%</small>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="circle"  data-dots="80" data-percent="75"></div>
+
+                    <div class="text">
+                        <big>Adaptability</big>
+                        <small>65%</small>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="circle"  data-dots="80" data-percent="75"></div>
+
+                    <div class="text">
+                        <big>Public Speaking</big>
+                        <small>75%</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+
+     <!-- End of Skills -->
+
+    <!-- Start of Projects -->
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+
+      <div class="container">
+        <div class="fillter-buttons ">
+            <button class="btn" data-filter = "all">All</button>
+            <button class="btn" data-filter = ".android">Android</button>
+            <button class="btn" data-filter = ".react">React</button>
+            <button class="btn" data-filter = ".ios">iOS</button>
+            <button class="btn" data-filter = ".aiml">AI-ML</button>
+        </div>
+
+        <div class="projects-gallery">
+            <div class="port-box mix android">
+                <div class="port-image">
+                    <img src="assets/Buddiesgram.jpeg" alt="">
+                </div>
+                <div class="port-content">
+                    <h3>Buddiesgram</h3>
+                    <p>Instantly share, explore, and connect through captivating visual moments worldwide.</p>
+
+                    <div class="icon-container">
+
+                      <a href="https://github.com/ShettaKeval20/Buddiesgram" target="_blank">
+                        <img
+                          src="./assets/github.png"
+                          alt="Github Link"
+                          class="iconsa"
+                        />
+                      </a>
+  
+                      <a href="https://drive.google.com/file/d/1ueRy9UO9MlYeLrOke3HIJq68cDjhKazE/view?usp=sharing" target="_blank">
+                        <img
+                          src="./assets/video.png"
+                          alt="Video Link"
+                          class="iconsb"
+                        />
+                      </a>
+
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="port-box mix android">
+              <div class="port-image">
+                  <img src="assets/Location.png" alt="">
+              </div>
+              <div class="port-content">
+                  <h3>Location App</h3>
+                  <p>Android project mimics Google Maps, showing real-time location, nearby places, and email integration for sharing. </p>
+
+                  <div class="icon-container">
+
+                    <a href="https://github.com/ShettaKeval20/AndroidProject2_LocationApp" target="_blank">
+                      <img
+                        src="./assets/github.png"
+                        alt="Github Link"
+                        class="iconsa"
+                      />
+                    </a>
+
+                    <a href="https://drive.google.com/file/d/1CQiP6Ko0hOXua_qCwAoX4-HVauf463vy/view?usp=sharing" target="_blank">
+                      <img
+                        src="./assets/video.png"
+                        alt="Video Link"
+                        class="iconsb"
+                      />
+                    </a>
+
+                  </div>
+                  
+              </div>
+          </div>
+
+          <div class="port-box mix react">
+            <div class="port-image">
+                <img src="assets/inbreifs.png" alt="">
+            </div>
+            <div class="port-content">
+                <h3>InBriefs</h3>
+                <p>InBriefs: 100-word news summaries, mobile-friendly. Personalized feed, interact, night mode. Conveniently access news, like/share, save. Easy social login.</p>
+
+                <div class="icon-container">
+
+                  <a href="https://github.com/itsaakashpatel/inbriefs-app" target="_blank">
+                    <img
+                      src="./assets/github.png"
+                      alt="Github Link"
+                      class="iconsa"
+                    />
+                  </a>
+
+                  <a href="https://cln.sh/mhF0vGCH" target="_blank">
+                    <img
+                      src="./assets/video.png"
+                      alt="Video Link"
+                      class="iconsb"
+                    />
+                  </a>
+
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="port-box mix ios">
+          <div class="port-image">
+              <img src="assets/weather.png" alt="">
+          </div>
+          <div class="port-content">
+              <h3>Weather App</h3>
+              <p>Innovative iOS app delivering real-time weather updates, seamlessly fetching and displaying accurate meteorological data for an enhanced user experience.</p>
+
+              <div class="icon-container">
+
+                <a href="https://github.com/itsaakashpatel/inbriefs-app" target="_blank">
+                  <img
+                    src="./assets/github.png"
+                    alt="Github Link"
+                    class="iconsa"
+                  />
+                </a>
+
+                <a href="https://drive.google.com/file/d/1rvGzGR6uDngpBJupnSLaRivaagnuA9Xl/view?usp=sharing" target="_blank">
+                  <img
+                    src="./assets/video.png"
+                    alt="Video Link"
+                    class="iconsb"
+                  />
+                </a>
+
+              </div>
+              
+          </div>
+      </div>
+
+      <!-- <div class="port-box mix web">
+        <div class="port-image">
+            <img src="assets/new.png" alt="">
+        </div>
+        <div class="port-content">
+            <h3>News App</h3>
+            <p>Developing progressive web app (PWA) for news delivery and engagement, enhancing user experience and accessibility on various devices.</p>
+
+            <div class="icon-container">
+
+              <a href="https://github.com/ShettaKeval20/AndroidProject2_LocationApp" target="_blank">
+                <img
+                  src="./assets/github.png"
+                  alt="Github Link"
+                  class="iconsa"
+                />
+              </a>
+
+              <a href="https://drive.google.com/file/d/1U33pp6f1gDn8MBA5ZMkT5OIwQkaw8DEp/view?usp=sharing" target="_blank">
+                <img
+                  src="./assets/video.png"
+                  alt="Video Link"
+                  class="iconsb"
+                />
+              </a>
+
+            </div>
+            
+        </div>
+    </div> -->
+
+    <div class="port-box mix aiml">
+      <div class="port-image">
+          <img src="assets/onlineExam.png" alt="">
+      </div>
+      <div class="port-content">
+          <h3>AI-ML online Exam</h3>
+          <p>In this project we are group of three have created a website that prevents malpractices during the online examination using AI-ML algorithm.</p>
+
+          <div class="icon-container">
+
+            <a href="https://github.com/ShettaKeval20/24_Developing-AI-Based-Comprehensive-Framework-For-Online-Assessments" target="_blank">
+              <img
+                src="./assets/github.png"
+                alt="Github Link"
+                class="iconsa"
+              />
+            </a>
+
+            <a href="https://drive.google.com/file/d/1U33pp6f1gDn8MBA5ZMkT5OIwQkaw8DEp/view?usp=sharing" target="_blank">
+              <img
+                src="./assets/video.png"
+                alt="Video Link"
+                class="iconsb"
+              />
+            </a>
+
+          </div>
+          
+      </div>
+  </div>
+
+        </div>
+
+    </div>
+
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <!-- End of Projects -->
+
+    <!-- Start of Contacts -->
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:kevalshetta@gmail.com">kevalshetta@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://linkedin.com/in/kevalshetta">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <!-- End of Contacts -->
+
+    <!-- Start of Footer -->
+    <footer>
+
+      <p>Copyright &#169; 2023 Keval Shetta. All Rights Reserved.</p>
+      <a href="#profile"><i class='bx bx-up-arrow-alt'></i></a>
+    </footer>
+
+    <!-- End of Projects -->
+
+    <!-- Link to JS -->
+    <script src="mixitup.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

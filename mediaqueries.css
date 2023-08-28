@@ -1,0 +1,168 @@
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+  .about-containers {
+    flex-wrap: wrap;
+  }
+
+
+}
+
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+  #experience,
+  .experience-details-container {
+    margin-top: 2rem;
+  }
+  #profile,
+  .section-container {
+    display: block;
+  }
+  .arrow {
+    display: none;
+  }
+  section,
+  .section-container {
+    height: fit-content;
+  }
+  section {
+    margin: 0 5%;
+  }
+  .section__pic-container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+  .about-containers {
+    margin-top: 0;
+  }
+
+  .skill-main,
+  .skill-left
+  .skill-right {
+    flex-direction: column; /* Stack the sections vertically */
+    gap: 2rem; /* Add some spacing between the sections */
+  }
+
+  .skill-right {
+    order: 2; /* Move Professional Skills section below Technical Skills */
+  }
+
+  .skill-main {
+    width: 100%; /* Technical Skills takes full width */
+  }
+  
+}
+
+@media screen and (max-width: 600px) {
+  #contact
+   {
+    height: 40vh;
+  }
+  #profile {
+    flex-direction: column;
+    align-items: center; 
+    height: auto; 
+  }
+  article {
+    font-size: 1rem;
+  }
+  footer nav {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+  .about-containers,
+  .contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap;
+  }
+  .contact-info-container {
+    margin: 0;
+  }
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 1rem;
+  }
+  .experience-sub-title {
+    font-size: 1.25rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  .section__pic-container {
+    width: 275px; 
+    height: 275px;
+  }
+
+  .section__text {
+    margin-top: 2rem;
+  }
+
+  .change-text {
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-align: center; 
+    justify-content: center;
+    align-items: center; 
+    display: flex; 
+    flex-direction: column; 
+    margin-top: 1rem; 
+  }
+
+  .change-text h3 {
+    display: inline; 
+    margin: 0.5rem 0;
+  }
+
+  .title {
+    font-size: 2rem; 
+  }
+
+  .btn-container {
+    flex-direction: column; 
+    align-items: center; 
+    margin-top: 5rem;
+  }
+
+  .btn {
+    width: 100%; 
+  }
+
+  #socials-container {
+    margin-top: 1rem; 
+  }
+
+  .skill-main {
+    grid-template-columns: 1fr; /* Stack columns vertically */
+    grid-row-gap: 20px; /* Adjust spacing between skill bars */
+  }
+
+  .skill-right .professional {
+    grid-template-columns: 1fr; /* Stack professional skill boxes vertically */
+  }
+
+  .skill-right .professional .box {
+    margin: 10px auto; /* Center align professional skill boxes */
+  }
+
+  .skill-left .skill-bar .info,
+  .skill-right .professional .box .text {
+    text-align: center; /* Center align text content */
+  }
+
+  #projects{
+    margin-top: 10rem;
+  }
+}
